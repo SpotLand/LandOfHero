@@ -5,12 +5,26 @@
 
 package unit;
 
-import unitDemoClient.AbstractUnit;
 
-public class Unit implements AbstractUnit {
+
+public abstract class Unit implements UnitInterface {
 
 	public Unit() {
 		// TODO Auto-generated constructor stub
 	}
+
+	private int maxHeathPoint;
+	private int currentHeathPoint;
+	private int maxMagicPoint;
+	private int currentMagicPoint;
+	private int movePoint;
+	private int attackRange;
+	private int physicalDefence;
+	private int attack;
+	private int magicDefence;
+	private int courage;
+	private int experience;
+	private int level;
+	private int attribute;
 
 }

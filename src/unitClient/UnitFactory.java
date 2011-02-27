@@ -1,4 +1,6 @@
-package unitDemoClient;
+package unitClient;
+
+import unit.*;
 
 public class UnitFactory {
 	
@@ -6,7 +8,7 @@ public class UnitFactory {
 		
 	}
 
-	public static AbstractUnit getUnit() {
+	public static UnitInterface getUnit() {
 		// TODO Auto-generated method stub
 		return null;
 	}
