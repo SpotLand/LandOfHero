@@ -1,5 +1,5 @@
 package unit;
 
-public class AbstractFileReader {
+public interface AbstractFileReader {
 
 }
