@@ -9,8 +9,26 @@ package unit;
 
 public abstract class Unit implements UnitInterface {
 
-	public Unit() {
-		// TODO Auto-generated constructor stub
+	protected void changeTheHeathyPoint() {
+		throw new UnsupportedOperationException();
+	}
+	protected void changeTheMagicPoint() {
+		throw new UnsupportedOperationException();
+	}
+	protected void changeTheMovePoint() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void getGrid() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void setGrid() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void haichuan2b() {
+		throw new UnsupportedOperationException();
 	}
 
 	private int maxHeathPoint;

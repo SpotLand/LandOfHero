@@ -24,10 +24,8 @@ public interface UnitInterface {
 
 	void getTerrainMoveCost();
 
-	void changeTheHeathyPoint();
+	void getGrid();
 
-	void changeTheMagicPoint();
-
-	void changeTheMovePoint();
+	void setGrid();
 
 }
