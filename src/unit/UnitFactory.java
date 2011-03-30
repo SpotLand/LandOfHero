@@ -1,6 +1,5 @@
 package unit;
 
-import unit.*;
 
 public class UnitFactory {
 	
@@ -8,8 +7,8 @@ public class UnitFactory {
 		
 	}
 
-	public static UnitInterface getUnit() {
+	public static UnitModel getUnit(String race, String category) {
 		// TODO Auto-generated method stub
-		return null;
+		return new Unit(race, category);
 	}
 }

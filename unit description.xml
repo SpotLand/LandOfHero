@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit>
+	<zombies>
+		<soldier>
+			<maxHealthPoint>100</maxHealthPoint>
+			<maxMagicPoint>100</maxMagicPoint>
+			<movePoint>8</movePoint>
+			<attackRange>2</attackRange>
+			<physicalDefence>3</physicalDefence>
+			<attack>50</attack>
+			<magicDefence>75</magicDefence>
+			<courage>100</courage>
+			<experience>0</experience>
+			<level>1</level>
+			<attribute>0</attribute></soldier></zombies>
+	<mars><soldier>
+			<maxHealthPoint>100</maxHealthPoint>
+			<maxMagicPoint>100</maxMagicPoint>
+			<movePoint>8</movePoint>
+			<attackRange>2</attackRange>
+			<physicalDefence>3</physicalDefence>
+			<attack>50</attack>
+			<magicDefence>75</magicDefence>
+			<courage>100</courage>
+			<experience>0</experience>
+			<level>1</level>
+			<attribute>0</attribute></soldier></mars></unit>
